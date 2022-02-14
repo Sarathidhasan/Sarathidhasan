@@ -1,3 +1,4 @@
+only use this in Turboc++ 
 Bomberman is a popular game where a player is trapped in a room and is expected to
 get out by finding the key. In this version of the game, the room consists of breakable
 bricks, unbreakable walls and Villains.
