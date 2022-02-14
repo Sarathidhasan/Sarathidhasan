@@ -1,0 +1,38 @@
+Disclimer:"Please use only Capital letters for all instructions/commands".
+Input:
+  Map Size
+  User position
+  Key position
+  No of Villains and their position
+  No of Bricks and their position
+
+Sample Input:
+12 \\Map size should be Even Number
+CB \\PLAYER position
+FD \\key position
+2  \\Enter the number of vallains in the game
+BH \\Villain position
+DF \\villain position
+6  \\Enter the number of Bricks in the game
+DD \\brick position
+ED \\brick position
+FB \\brick position
+FF \\brick position
+GB \\brick position
+HD \\brick position
+
+Other Inputs for player movements/actions:
+  W - Move up
+  S - Move down
+  A - Move left
+  D - Move right
+  Q - Move diagonally up left
+  Z - Move diagonally down left
+  E - Move diagonally up right
+  C - Move diagonally down right
+    -> The player can not move to a position if there is a Wall or Brick
+    -> If there is a Villain where the player moves. The player dies
+    -> If there is a Key where the player moves. The player wins the game
+   
+    -> The player can plant a bomb to destroy Bricks and Villains.
+       X - Bomb
